@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms </title>
+</head>
+<body>
+
+    <form method="POST" action="mailto:victor@gmail.com">
+        <!-- <label for ="firstname ">FIrstname</label><br> -->
+        Name:<br>  <!--THis is the equivalent of  label tag-->
+        <!--readonly assit with values to read,user cannot change it-->
+        <input type="text" name ="name" value="victor"  ><br>
+        Phone Number:<br>
+        <input type ="text" name="Phone_number" /><br>
+<!--THe purpose of break line is to make contents appear in new line-->
+        Email:<br>
+        <input type="email" name="email" ><br>
+        <input type ="submit" value="submit" /> 
+        <select  id = "student" name="student">
+            <option value ="victor">Victor</option><br>        <!-- <label for ="firstname ">FIrstname</label><br> -->
+
+            <option value="Thabo">Thabo</option>
+
+        </select><br>
+        <br>
+        <!-- <input type ="submit" value ="send" /><br> -->
+        Male:<input type = "radio" value="female" name = "gender" />
+
+        Female:<input type = "radio" value="male" name="gender" />
+        <!-- Female:<br> -->
+        <br>
+        <!-- <input type = "radio" id ="female" name = "gender" /> -->
+        <br>
+        Textarea:<br><input type="textarea" value ="textarea">
+    </form>
+    
+</body>
+</html>
